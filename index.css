@@ -1,6 +1,4 @@
 body {
-    background-color: white;
-    color: black;
     margin: 0;
     padding: 0;
 }
@@ -27,7 +25,7 @@ header nav a {
 }
 
 header nav a:hover {
-    color: blue;
+    color: #1AA3F3 ;
 }
 
 header .user-panel {
@@ -39,7 +37,7 @@ header .user-panel {
 header .profile-image i {
     color: white;
     font-size: 25px;
-    border: 2px solid #999;
+    border: 2px solid #D9D9D9 ;
     border-radius: 50%;
 }
 
@@ -55,7 +53,7 @@ header .search {
 
 header .search-box {
     font-size: 14px;
-    border: 1px solid #999;
+    border: 1px solid #D9D9D9 ;
     width: 100px;
 }
 
@@ -63,6 +61,89 @@ header .search i {
     position: absolute;
     right: 5px;
     font-size: 10px;
-    color: #999;
+    color: #D9D9D9 ;
     cursor: pointer;
 }
+main {
+    background-image: url('/images/titanic.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px 20px;
+    margin: 5px;
+}
+
+.hero-content {
+    max-width: 60%; 
+    margin-left: 0; 
+    margin-right: auto; 
+    text-align: left;
+    color: #D9D9D9; 
+}
+
+
+.movie-title {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.movie-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 25px;
+    font-size: 16px;
+}
+
+.user-ratings {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.user-rating {
+    color: #FF0000;
+}
+
+.rating-number {
+    font-weight: bold;
+}
+
+.maturity-rating {
+    padding: 0 5px;
+    border: 1px solid #D9D9D9 ;
+    border-radius: 5px;
+}
+
+.duration {
+    font-weight: bold;
+}
+
+.description {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.movie-details {
+    color: #D9D9D9;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.movie-details .label {
+    font-weight: bold;
+    color: #FF0000;
+}
+
+.btn {
+    background-color: #FF0000;
+    color: #D9D9D9;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
