@@ -1,0 +1,68 @@
+body {
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+header {
+    margin: 25px 40px 25px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    height: 50px;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    gap: 20px;
+}
+
+header nav a {
+    font-size: 16px;
+}
+
+header nav a:hover {
+    color: blue;
+}
+
+header .user-panel {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+header .profile-image i {
+    color: white;
+    font-size: 25px;
+    border: 2px solid #999;
+    border-radius: 50%;
+}
+
+header .bell {
+    font-size: 20px;
+}
+
+header .search {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+header .search-box {
+    font-size: 14px;
+    border: 1px solid #999;
+    width: 100px;
+}
+
+header .search i {
+    position: absolute;
+    right: 5px;
+    font-size: 10px;
+    color: #999;
+    cursor: pointer;
+}
