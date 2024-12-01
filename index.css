@@ -3,25 +3,25 @@ body {
     padding: 0;
 }
 header {
-    margin: 25px 40px 25px 10px;
+    margin: 2vw 4vw 2vw 1vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 header .logo {
-    height: 50px;
+    height: 5vw;
 }
 
 header nav {
     display: flex;
     justify-content: center;
     flex-grow: 1;
-    gap: 20px;
+    gap: 3vw;
 }
 
 header nav a {
-    font-size: 16px;
+    font-size: 1.5rem;
 }
 
 header nav a:hover {
@@ -31,18 +31,18 @@ header nav a:hover {
 header .user-panel {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 2vw;
 }
 
 header .profile-image i {
     color: white;
-    font-size: 30px;
+    font-size: 2.5vw;
     border: 2px solid #7F7F7F ;
     border-radius: 50%;
 }
 
 header .bell {
-    font-size: 20px;
+    font-size: 1.5vw;
 }
 
 header .search {
@@ -52,16 +52,17 @@ header .search {
 }
 
 header .search-box {
-    font-size: 14px;
-    border: 1px solid #7F7F7F ;
-    width: 100px;
+    font-size: 1.5rem;
+    border: 1px solid #7F7F7F;
+    width: 10vw;
+    border-radius: 5px;
 }
 
 header .search i {
     position: absolute;
-    right: 5px;
-    font-size: 10px;
-    color: #D9D9D9 ;
+    right: 1vw;
+    font-size: 1.2rem;
+    color: #7F7F7F;
     cursor: pointer;
 }
 main {
@@ -69,8 +70,9 @@ main {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 50px 20px;
-    margin: 5px;
+    padding: 5vw 2vw;
+    margin: 1vw;
+    border-radius: 5px;
 }
 
 .hero-content {
@@ -78,27 +80,29 @@ main {
     margin-left: 0; 
     margin-right: auto; 
     text-align: left;
-    color: #D9D9D9; 
+    color: white; 
 }
 
 
 .movie-title {
-    font-size: 36px;
+    font-size: 4rem;
     font-weight: bold;
+    text-shadow: 2px 2px 6px black;
 }
 
 .movie-info {
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
-    gap: 25px;
-    font-size: 16px;
+    margin-bottom: 2vw;
+    gap: 3vw;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 4px black;
 }
 
 .user-ratings {
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 1vw;
 }
 
 .user-rating {
@@ -110,7 +114,7 @@ main {
 }
 
 .maturity-rating {
-    padding: 0 5px;
+    padding: 0 0.5vw;
     border: 1px solid #D9D9D9 ;
     border-radius: 5px;
 }
@@ -120,14 +124,16 @@ main {
 }
 
 .description {
-    font-size: 16px;
-    margin-bottom: 30px;
+    font-size: 1.5rem;
+    margin-bottom: 3vw;
+    text-shadow: 1px 1px 4px black;
 }
 
 .movie-details {
-    color: #D9D9D9;
-    font-size: 16px;
-    margin-bottom: 30px;
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 3vw;
+    text-shadow: 1px 1px 4px black;
 }
 
 .movie-details .label {
@@ -138,8 +144,8 @@ main {
 .btn {
     background-color: #FF0000;
     color: #D9D9D9;
-    padding: 10px 20px;
-    font-size: 18px;
+    padding: 1vw 2vw;
+    font-size: 1.5rem;
     border: none;
     border-radius: 5px;
     display: inline-block;
@@ -149,11 +155,11 @@ main {
 }
 
 #movieList {
-    margin: 30px 5px;
+    margin: 3vw 1vw;
 }
 
 .suggestion-row {
-    margin-bottom: 40px;
+    margin-bottom: 4vw;
 }
 
 .suggestion-title {
@@ -164,25 +170,24 @@ main {
 }
 
 .suggestion-title h2 {
-    font-size: 18px;
+    font-size: 2rem;
 }
 
 .suggestion-title a {
-    font-size: 18px;
+    font-size: 2rem;
 }
 
 .suggestion-content {
     display: flex;
-    
     overflow-x: auto;
-    gap: 100px;
-    padding: 10px 0;
+    gap: 6.4vw;
+    padding: 0.5vw 0;
 }
 
 .suggestion-item {
     position: relative;
-    width: 435px;
-    height: 250px;
+    width: 28vw;
+    height: 32vh;
     flex-shrink: 0;
     border: solid 1px #7F7F7F;
     border-radius: 5px;
@@ -191,30 +196,30 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 20px;
+    padding: 1vw;
     box-sizing: border-box;
     
 }
 
 
 .suggestion-item h3 {
-    text-shadow: 2px 2px 6px #FF0000;
-    font-size: 26px;
+    text-shadow: 2px 2px 6px black;
+    font-size: 2.5rem;
     font-weight: bold;
-    color: #D9D9D9;
-    margin-top: 40px;
+    color: white;
+    margin-top: 3vw;
     text-transform: uppercase;
     text-align: left;
 }
 
 .suggestion-details {
-    text-shadow: 1px 1px 4px #FF0000;
+    text-shadow: 1px 1px 4px black;
     display: flex;
     justify-content: flex-start;  
     margin: 0;
-    color: #D9D9D9;
-    font-size: 16px;
-    gap: 20px;  
+    color: white;
+    font-size: 1.5rem;
+    gap: 2vw;  
 }
 
 
@@ -228,16 +233,16 @@ main {
     background-color: #FF0000;
     border: none;
     border-radius: 5px;
-    padding: 10px 20px;
+    padding: 0.5vw 1.5vw;
     color: #D9D9D9;
-    font-size: 16px;
+    font-size: 1.5rem;
     cursor: pointer;
     align-self: flex-start;
-    margin-bottom: 40px;
+    margin-bottom: 2.5vw;
 }
 
-.spacer {
-    height: 350px; 
+#more-suggestions {
+    height: 37vh; 
 }
 #popularMovies .suggestion-item:nth-child(1) {
     background-image: url('images/inception.jpg');
@@ -291,8 +296,8 @@ footer {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start; 
-    margin: 25px 10px 25px 10px;
-    gap: 50px;
+    margin: 2vw 1vw 2vw 1vw;
+    gap: 5vw;
     flex-wrap: nowrap;
 }
 
@@ -306,18 +311,18 @@ footer .links {
 
 footer .links nav {
     display: flex;
-    gap: 100px;
+    gap: 8vw;
     
 }
 
 footer .links nav a {
-    font-size: 16px;
+    font-size: 1.5rem;
 }
 
 footer .links p {
-    font-size: 12px;
-    margin-top: 10px;
-    max-width: 960px;
+    font-size: 1rem;
+    margin-top: 1vw;
+    max-width: 96%;
 }
 
 footer .social {
@@ -326,17 +331,17 @@ footer .social {
 }
 
 footer .social p {
-    margin-bottom: 10px;
-    font-size: 16px;
+    margin-bottom: 1vw;
+    font-size: 1.5rem;
 }
 
 footer .social .social-links {
     display: flex;
-    gap: 20px;
+    gap: 2vw;
 }
 
 footer .social i {
-    font-size: 30px;
+    font-size: 2vw;
     cursor: pointer;
 }
 
@@ -347,11 +352,12 @@ footer .apps {
 }
 
 footer .apps p {
-    margin-bottom: 10px;
-    font-size: 16px;
+    margin-bottom: 0.5vw;
+    font-size: 1.5rem;
 }
+
 footer .apps img {
-    width: 150px; 
+    width: 10vw;
     height: auto;
 }
 .bold {
