@@ -145,5 +145,142 @@ main {
     display: inline-block;
     vertical-align: middle;
     text-align: center;
+    cursor: pointer;
 }
 
+#movieList {
+    margin: 30px 5px;
+}
+
+.suggestion-row {
+    margin-bottom: 40px;
+}
+
+.suggestion-title {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    font-weight: bold;
+}
+
+.suggestion-title h2 {
+    font-size: 18px;
+}
+
+.suggestion-title a {
+    font-size: 18px;
+}
+
+.suggestion-content {
+    display: flex;
+    
+    overflow-x: auto;
+    gap: 100px;
+    padding: 10px 0;
+}
+
+.suggestion-item {
+    position: relative;
+    width: 435px;
+    height: 250px;
+    flex-shrink: 0;
+    border: solid 1px #7F7F7F;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+
+
+.suggestion-item h3 {
+    text-shadow: 2px 2px 6px #FF0000;
+    font-size: 26px;
+    font-weight: bold;
+    color: #D9D9D9;
+    margin-top: 40px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.suggestion-details {
+    text-shadow: 1px 1px 4px #FF0000;
+    display: flex;
+    justify-content: flex-start;  
+    margin: 0;
+    color: #D9D9D9;
+    font-size: 16px;
+    gap: 20px;  
+}
+
+
+.duration {
+    font-weight: bold;
+}
+
+.suggestion-item .btn {
+    display: block;
+    text-align: center;
+    background-color: #FF0000;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #D9D9D9;
+    font-size: 16px;
+    cursor: pointer;
+    align-self: flex-start;
+    margin-bottom: 40px;
+}
+
+
+#popularMovies .suggestion-item:nth-child(1) {
+    background-image: url('images/inception.jpg');
+}
+
+#popularMovies .suggestion-item:nth-child(2) {
+    background-image: url('images/matrix.jpg');
+}
+
+#popularMovies .suggestion-item:nth-child(3) {
+    background-image: url('images/avatar.jpg');
+}
+
+#popularMovies .suggestion-item:nth-child(4) {
+    background-image: url('images/DarkKnight.jpg');
+}
+
+#popularMovies .suggestion-item:nth-child(5) {
+    background-image: url('images/Gladiator.jpg');
+}
+
+#popularMovies .suggestion-item:nth-child(6) {
+    background-image: url('images/Interstellar.jpg');
+}
+
+#recommendedForYou .suggestion-item:nth-child(1) {
+    background-image: url('images/TheGodfather.jpg');
+}
+
+#recommendedForYou .suggestion-item:nth-child(2) {
+    background-image: url('images/SpiderMan.jpg');
+}
+
+#recommendedForYou .suggestion-item:nth-child(3) {
+    background-image: url('images/parasite.jpg');
+}
+
+#recommendedForYou .suggestion-item:nth-child(4) {
+    background-image: url('images/ShawshankRedemption.jpg');
+}
+
+#recommendedForYou .suggestion-item:nth-child(5) {
+    background-image: url('images/FightClub.jpg');
+}
+
+#recommendedForYou .suggestion-item:nth-child(6) {
+    background-image: url('images/forrest\ gump.jpg');
+}
