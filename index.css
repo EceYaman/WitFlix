@@ -36,8 +36,8 @@ header .user-panel {
 
 header .profile-image i {
     color: white;
-    font-size: 25px;
-    border: 2px solid #D9D9D9 ;
+    font-size: 30px;
+    border: 2px solid #7F7F7F ;
     border-radius: 50%;
 }
 
@@ -53,7 +53,7 @@ header .search {
 
 header .search-box {
     font-size: 14px;
-    border: 1px solid #D9D9D9 ;
+    border: 1px solid #7F7F7F ;
     width: 100px;
 }
 
@@ -236,7 +236,9 @@ main {
     margin-bottom: 40px;
 }
 
-
+.spacer {
+    height: 350px; 
+}
 #popularMovies .suggestion-item:nth-child(1) {
     background-image: url('images/inception.jpg');
 }
@@ -283,4 +285,75 @@ main {
 
 #recommendedForYou .suggestion-item:nth-child(6) {
     background-image: url('images/forrest\ gump.jpg');
+}
+
+footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start; 
+    margin: 25px 10px 25px 10px;
+    gap: 50px;
+    flex-wrap: nowrap;
+}
+
+footer .links {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: flex-start;
+}
+
+
+footer .links nav {
+    display: flex;
+    gap: 100px;
+    
+}
+
+footer .links nav a {
+    font-size: 16px;
+}
+
+footer .links p {
+    font-size: 12px;
+    margin-top: 10px;
+    max-width: 960px;
+}
+
+footer .social {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .social p {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+footer .social .social-links {
+    display: flex;
+    gap: 20px;
+}
+
+footer .social i {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+footer .apps {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .apps p {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+footer .apps img {
+    width: 150px; 
+    height: auto;
+}
+.bold {
+    font-weight: bold;
 }
