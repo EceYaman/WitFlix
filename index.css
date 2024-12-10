@@ -1,9 +1,11 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 header {
-    margin: 2vw 4vw 2vw 1vw;
+    margin: 2rem 4rem 2rem 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -14,8 +16,7 @@ header .logo {
 header nav {
     display: flex;
     justify-content: center;
-    flex-grow: 1;
-    gap: 3vw;
+    gap: 3rem;
 }
 header nav a {
     font-size: 1.5rem;
@@ -26,16 +27,16 @@ header nav a:hover {
 header .user-panel {
     display: flex;
     align-items: center;
-    gap: 2vw;
+    gap: 2rem;
 }
 header .profile-image i {
     color: white;
-    font-size: 2.5vw;
+    font-size: 2.5rem;
     border: 2px solid #7F7F7F ;
     border-radius: 50%;
 }
 header .bell {
-    font-size: 1.5vw;
+    font-size: 1.5rem;
 }
 header .search {
     display: flex;
@@ -58,12 +59,12 @@ header .search i {
 
 
 main {
-    background-image: url('/images/titanic.jpg');
+    background-image: url('/images/movie_titanic.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 5vw 2vw;
-    margin: 1vw;
+    padding: 5rem 2rem;
+    margin: 1rem;
     border-radius: 5px;
 }
 .hero-content {
@@ -81,15 +82,15 @@ main {
 .movie-info {
     display: flex;
     align-items: center;
-    margin-bottom: 2vw;
-    gap: 3vw;
+    margin-bottom: 2rem;
+    gap: 3rem;
     font-size: 1.5rem;
     text-shadow: 1px 1px 4px black;
 }
 .user-ratings {
     display: flex;
     align-items: center;
-    gap: 1vw;
+    gap: 1rem;
 }
 .user-rating {
     color: #FF0000;
@@ -98,7 +99,7 @@ main {
     font-weight: bold;
 }
 .maturity-rating {
-    padding: 0 0.5vw;
+    padding: 0 0.5rem;
     border: 1px solid #D9D9D9 ;
     border-radius: 5px;
 }
@@ -107,13 +108,13 @@ main {
 }
 .description {
     font-size: 1.5rem;
-    margin-bottom: 3vw;
+    margin-bottom: 3rem;
     text-shadow: 1px 1px 4px black;
 }
 .movie-details {
     color: white;
     font-size: 1.5rem;
-    margin-bottom: 3vw;
+    margin-bottom: 3rem;
     text-shadow: 1px 1px 4px black;
 }
 .movie-details .label {
@@ -123,7 +124,7 @@ main {
 .btn {
     background-color: #FF0000;
     color: #D9D9D9;
-    padding: 1vw 2vw;
+    padding: 1rem 2rem;
     font-size: 1.5rem;
     border: none;
     border-radius: 5px;
@@ -135,10 +136,10 @@ main {
 
 
 #movieList {
-    margin: 3vw 1vw;
+    margin: 3rem 1rem;
 }
 .suggestion-row {
-    margin-bottom: 4vw;
+    margin-bottom: 4rem;
 }
 .suggestion-title {
     display: flex;
@@ -155,13 +156,13 @@ main {
 .suggestion-content {
     display: flex;
     overflow-x: auto;
-    gap: 6.4vw;
-    padding: 0.5vw 0;
+    gap: 10.5rem;
+    padding: 0.5rem 0;
 }
 .suggestion-item {
     position: relative;
     width: 28vw;
-    height: 32vh;
+    height: 33vh;
     flex-shrink: 0;
     border: solid 1px #7F7F7F;
     border-radius: 5px;
@@ -178,7 +179,7 @@ main {
     font-size: 2.5rem;
     font-weight: bold;
     color: white;
-    margin-top: 3vw;
+    margin-top: 3rem;
     text-transform: uppercase;
     text-align: left;
 }
@@ -189,7 +190,7 @@ main {
     margin: 0;
     color: white;
     font-size: 1.5rem;
-    gap: 2vw;  
+    gap: 2rem;  
 }
 .duration {
     font-weight: bold;
@@ -200,62 +201,62 @@ main {
     background-color: #FF0000;
     border: none;
     border-radius: 5px;
-    padding: 0.5vw 1.5vw;
+    padding: 0.5rem 1.5rem;
     color: #D9D9D9;
     font-size: 1.5rem;
     cursor: pointer;
     align-self: flex-start;
-    margin-bottom: 2.5vw;
+    margin-bottom: 2.5rem;
 }
 #more-suggestions {
     height: 37vh; 
 }
 #popularMovies .suggestion-item:nth-child(1) {
-    background-image: url('images/inception.jpg');
+    background-image: url('images/movie_inception.jpg');
 }
 
 #popularMovies .suggestion-item:nth-child(2) {
-    background-image: url('images/matrix.jpg');
+    background-image: url('images/movie_matrix.jpg');
 }
 
 #popularMovies .suggestion-item:nth-child(3) {
-    background-image: url('images/avatar.jpg');
+    background-image: url('images/movie_avatar.jpg');
 }
 
 #popularMovies .suggestion-item:nth-child(4) {
-    background-image: url('images/DarkKnight.jpg');
+    background-image: url('images/movie_darkknight.jpg');
 }
 
 #popularMovies .suggestion-item:nth-child(5) {
-    background-image: url('images/Gladiator.jpg');
+    background-image: url('images/movie_gladiator.jpg');
 }
 
 #popularMovies .suggestion-item:nth-child(6) {
-    background-image: url('images/Interstellar.jpg');
+    background-image: url('images/movie_interstellar.jpg');
 }
 
 #recommendedForYou .suggestion-item:nth-child(1) {
-    background-image: url('images/TheGodfather.jpg');
+    background-image: url('images/movie_thegodfather.jpg');
 }
 
 #recommendedForYou .suggestion-item:nth-child(2) {
-    background-image: url('images/SpiderMan.jpg');
+    background-image: url('images/movie_spiderman.jpg');
 }
 
 #recommendedForYou .suggestion-item:nth-child(3) {
-    background-image: url('images/parasite.jpg');
+    background-image: url('images/movie_parasite.jpg');
 }
 
 #recommendedForYou .suggestion-item:nth-child(4) {
-    background-image: url('images/ShawshankRedemption.jpg');
+    background-image: url('images/movie_shawshank.jpg');
 }
 
 #recommendedForYou .suggestion-item:nth-child(5) {
-    background-image: url('images/FightClub.jpg');
+    background-image: url('images/movie_fightclub.jpg');
 }
 
 #recommendedForYou .suggestion-item:nth-child(6) {
-    background-image: url('images/forrest\ gump.jpg');
+    background-image: url('images/movie_forrestgump.jpg');
 }
 
 
@@ -263,8 +264,8 @@ footer {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start; 
-    margin: 2vw 1vw 2vw 1vw;
-    gap: 5vw;
+    margin: 2rem 1rem 2rem 1rem;
+    gap: 5rem;
     flex-wrap: nowrap;
 }
 
@@ -276,14 +277,14 @@ footer .links {
 }
 footer .links nav {
     display: flex;
-    gap: 8vw; 
+    gap: 8rem; 
 }
 footer .links nav a {
     font-size: 1.5rem;
 }
 footer .links p {
     font-size: 1rem;
-    margin-top: 1vw;
+    margin-top: 1rem;
     max-width: 96%;
 }
 footer .social {
@@ -291,16 +292,16 @@ footer .social {
     flex-direction: column;
 }
 footer .social p {
-    margin-bottom: 1vw;
+    margin-bottom: 1rem;
     font-size: 1.5rem;
 }
 footer .social .social-links {
     display: flex;
-    gap: 2vw;
+    gap: 2rem;
 }
 
 footer .social i {
-    font-size: 2vw;
+    font-size: 2rem;
     cursor: pointer;
 }
 footer .apps {
@@ -308,7 +309,7 @@ footer .apps {
     flex-direction: column;
 }
 footer .apps p {
-    margin-bottom: 0.5vw;
+    margin-bottom: 0.5rem;
     font-size: 1.5rem;
 }
 footer .apps img {
@@ -324,7 +325,7 @@ footer .apps img {
         display: flex;
         flex-wrap: wrap; 
         justify-content: space-between;
-        margin: 1vw;
+        margin: 1rem;
     }
     header .logo {
         height: 8vw;
@@ -339,7 +340,7 @@ footer .apps img {
         font-size: 3vw;
     }
     header .bell {
-        font-size: 2vw;
+        font-size: 1.5rem;
     }
     header .search-box {
         font-size: 1rem;
@@ -353,11 +354,17 @@ footer .apps img {
     }
     header nav a {
         font-size: 1rem;
-        margin: 0 1vw;
+        margin: 0 1rem;
     }
 
     main {
-        padding: 5vw 2vw;
+        padding: 2.5rem 1.5rem;
+    }
+    .movie-info {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+        font-size: 1rem;
     }
     .hero-content {
         max-width: 90%;
@@ -385,24 +392,26 @@ footer .apps img {
     .suggestion-content {
         display: flex;
         overflow-x: auto;
-        gap: 4vw;
-        padding: 0.5vw 0;
+        gap: 3rem;
+        padding: 0.5rem 0;
     }
     .suggestion-item {
-        width: 30vw;
-        height: 18vh;
+        width: 28vw;
+        height: 16vh;
     }
     .suggestion-item h3 {
+        margin-top: 1.5rem;
         font-size: 1.5rem;
         line-height: 1;
     }
     .suggestion-details {
         font-size: 1rem;
+        margin-bottom: 0.5rem;
     }
     .suggestion-item .btn {
         padding: 0.5vw 1.5vw;
         font-size: 1rem;
-        margin-bottom: 2vw;
+        margin-bottom: 1.5rem;
     }
     #more-suggestions {
         height: 18vh; 
@@ -410,27 +419,35 @@ footer .apps img {
 
     footer {
         display: inline-block;
-        margin: 1vw; 
+        margin: 1rem; 
     }
     footer .links nav a {
         font-size: 1rem;
     }
     footer .links p {
         font-size: 1rem;
-        margin: 1vw 0;
+        margin: 1rem 0;
         max-width: 100%;
     }
     footer .social p,
     footer .apps p {
         font-size: 1rem;
+        margin-bottom: 0.5rem;
     }
     footer .social i {
-        font-size: 2.5vw;
+        font-size: 1.5rem;
     }
     .social, .apps {
         float: left; 
         width: 30%;
     }
-    
+    footer .apps img {
+        width: 10vw;
+        height: auto;
+    }
+    footer .social .social-links {
+        display: flex;
+        gap: 1rem;
+    }
     
 }
